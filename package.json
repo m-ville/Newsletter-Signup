@@ -1,0 +1,19 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "Subscribe to Newsletter.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Vidyarthi",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.74",
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "md5": "^2.3.0",
+    "request": "^2.88.2"
+  }
+}
